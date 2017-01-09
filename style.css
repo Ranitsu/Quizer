@@ -1,0 +1,205 @@
+body
+{
+	background-color: #DDDDDD;
+	margin: 0px;
+}
+
+form
+{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#strona
+{
+	width: 800px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+
+#top
+{
+	height: 40px;
+	border: solid 1px black;
+	border-collapse: collapse;
+	
+}
+
+#banner
+{
+	height: 100px;
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+
+#login
+{	
+	height: 30px;
+	float: right;
+	padding: 5px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+#formLogin
+{
+	font-size: 20px;
+	
+}
+
+#rejestracja
+{
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 798px;
+	border: solid 1px black;
+	
+}
+
+#tresc
+{	
+	margin: 0px;
+	padding: 10px;
+	width: 578px;
+	border: solid 1px black;
+	float: left;
+	position: relative;
+}
+
+#menu
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 198px;
+	float: right;
+	border: solid 1px black;
+
+}
+
+#wiecejmenu
+{
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 198px;
+	float: right;
+	border: solid 1px black;
+}
+
+#dodajpytanie
+{
+	padding: 10px;
+	position: absolute;
+	left: -300px;
+	top: -150px;
+	height: 500px;
+	width: 300px;
+	background-color: lightgrey;
+	visibility: hidden;
+	z-index: 11;
+	border: 2px black solid;
+}
+
+#zamknij
+{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.inline
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#pytanie
+{
+	width: 568px;
+	margin: 0px;
+	padding: 5px;
+	background-color: grey;
+}
+
+#tresc_pytania
+{
+	width: 558px;
+	padding: 5px;
+	background-color: darkgrey;
+}
+
+#odpowiedz
+{
+	width: 553px;
+	margin-left: 5px;
+	margin-top: 3px;
+	padding: 2px;
+	background-color: white;
+}
+
+#idpytania
+{
+	float: right;
+	text-align: right;
+	font-size: 9px;
+	color: lightgrey;
+	
+}
+
+#wynik
+{
+	width: 578px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#czas
+{
+	padding: 3px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 95px;
+	height: 40px;
+	background-color: darkgrey;
+	font-size: 40px;
+	
+}
+
+#wpis
+{
+	width: 576px;
+	border: solid 1px black;
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+#wpis_tytul
+{
+	width: 579px;
+	padding: 3px;
+	border: solid 1px black;
+	background-color: blue;
+	position: relative;
+	left: -5px;
+	top: 4px;
+}
+
+#wpis_tresc
+{
+	padding: 5px;
+}
